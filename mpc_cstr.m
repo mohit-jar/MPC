@@ -15,7 +15,6 @@ function mpc_cstr
 %   ============================================================
 
 %% Problem setup
-addpath('AuxFunctions')
 
 % The model parameters
 k1 = 3.575e8;       k2 = 3.575e8;       k3 = 2.5119e3;
