@@ -1,6 +1,6 @@
 function mpc_cstr
-%% Model predictive control of a tank reactor
-
+%   Model predictive control of a tank reactor
+%
 %   minimize the integral of (y_pred - y_sp)^2
 %   subject to: F(t,y,y') = 0
 %               lb <   u  < ub
@@ -14,8 +14,7 @@ function mpc_cstr
 %   
 %   ============================================================
 
-%% Problem setup
-
+% Problem setup
 % The model parameters
 k1 = 3.575e8;       k2 = 3.575e8;       k3 = 2.5119e3;
 E1 = 8.2101e4;      E2 = 8.2101e4;      E3 = 7.1172e4;
